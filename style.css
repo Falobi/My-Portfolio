@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*
+  font {
+    color: #e5e7eb;
+  }
+  */
+html {
+  font-size: 62.5%;
+}
+
+header {
+  height: 70vh;
+  background-color: #110504;
+}
+h2 {
+  text-align: center;
+  padding-top: 15rem;
+  font-size: 6rem;
+  font-weight: 800;
+  color: #b7985d;
+}
+.projects {
+  text-align: center;
+}
+button {
+  padding: 1rem 2.8rem;
+  border: none;
+  background-color: #110504;
+  border-radius: 2rem;
+  border: 2px solid #b7985d;
+  margin-top: 10rem;
+  margin-right: 1.5rem;
+}
+
+button a {
+  text-decoration: none;
+  color: #b7985d;
+  font-size: 1.5rem;
+}
+button a:hover {
+  cursor: pointer;
+  color: #f3ccf3;
+  transition: ease-in-out;
+}
+h3 {
+  font-size: 2rem;
+  color: #b7985d;
+}
+h4 {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  color: #110504;
+}
+
+.Side {
+  display: flex;
+  justify-content: space-between;
+  background-color: #b7985d;
+  color: #110504;
+}
+.Side img {
+  max-width: 250px;
+}
+.note p {
+  font-size: 1.2rem;
+  line-height: 2.3rem;
+  padding-top: 1.5rem;
+}
+
+span {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.fa-brands {
+  padding-right: 1rem;
+  color: #b7985d;
+}
+.connect {
+  background-color: #110504;
+  text-align: center;
+  padding-top: 5rem;
+}
+.connect h3 {
+  font-size: 3rem;
+  color: #b7985d;
+  padding-bottom: 3rem;
+}
+
+.connect p {
+  color: #b7985d;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+#fname {
+  height: 5rem;
+  width: 40rem;
+  padding-left: 1rem;
+  border: 1px solid gold;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  color: #b7985d;
+  background-color: #110504;
+}
+#email {
+  height: 5rem;
+  width: 40rem;
+  padding-left: 1rem;
+  border: 1px solid gold;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  background-color: #110504;
+}
+textarea {
+  height: 30rem;
+  width: 40rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  border: 1px solid gold;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  background-color: #110504;
+}
+.project-container {
+  max-width: 1300px;
+  padding: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+  gap: 80px;
+}
+
+.project-container > div {
+  border-radius: 12px;
+  border: 2px solid black;
+  overflow: hidden;
+  background-color: #110504;
+}
+.project-container > div img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  max-width: 100%;
+}
+.project-container h5 {
+  font-size: 20px;
+
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: white;
+}
+.project-container p {
+  font-size: 16px;
+  padding: 0px;
+  margin-bottom: 30px;
+}
+.project-container a {
+  color: #b7985d;
+  font-size: 18px;
+  margin-top: 20px;
+  text-decoration: none;
+  margin-right: 12px;
+}
+.project-container > div > div {
+  background-color: #110504;
+  padding: 24px;
+  color: white;
+  opacity: 60%;
+}
