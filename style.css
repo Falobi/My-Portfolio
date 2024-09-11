@@ -60,7 +60,7 @@ h4 {
 
 .Side {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   background-color: #b7985d;
   color: #110504;
 }
@@ -171,4 +171,23 @@ textarea {
   padding: 24px;
   color: white;
   opacity: 60%;
+}
+.more {
+  padding: 1rem 2.8rem;
+  border: none;
+  background-color: #110504;
+  border-radius: 2rem;
+  border: 2px solid #b7985d;
+  margin: 4rem;
+}
+
+.more a {
+  text-decoration: none;
+  color: #b7985d;
+  font-size: 1.5rem;
+}
+.more a:hover {
+  cursor: pointer;
+  color: #f3ccf3;
+  transition: ease-in-out;
 }
